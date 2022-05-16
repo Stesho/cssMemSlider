@@ -106,3 +106,52 @@ body {
   border-radius: 50%;
   background-color: #202325; 
 }
+
+
+/* Slide1  */
+#slide1:checked ~ .slider-frame > .slider-line{
+  transform: translateX(0);
+}
+#slide1:checked ~ .switcher > .description span:nth-child(1) {
+  display: block;
+  animation-name: appearance;
+}
+#slide1:checked ~ .switcher > .bullets > .bullet:nth-child(1) span {
+  display: block;
+}
+
+/* Slide2 */
+#slide2:checked ~ .slider-frame > .slider-line{
+  transform: translateX(-100%);
+}
+#slide2:checked ~ .switcher > .description span:nth-child(2) {
+  display: block;
+  animation-name: appearance;
+}
+#slide2:checked ~ .switcher > .bullets > .bullet:nth-child(2) span {
+  display: block;
+}
+
+/* Slide3 */
+#slide3:checked ~ .slider-frame > .slider-line{
+  transform: translateX(-200%);
+}
+#slide3:checked ~ .switcher > .description span:nth-child(3) {
+  display: block;
+  animation-name: appearance;
+}
+#slide3:checked ~ .switcher > .bullets > .bullet:nth-child(3) span {
+  display: block;
+}
+
+/* Slide4 */
+#slide4:checked ~ .slider-frame > .slider-line{
+  transform: translateX(-300%);
+}
+#slide4:checked ~ .switcher > .description span:nth-child(4) {
+  display: block;
+  animation-name: appearance;
+}
+#slide4:checked ~ .switcher > .bullets > .bullet:nth-child(4) span {
+  display: block;
+}
