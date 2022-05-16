@@ -56,7 +56,7 @@ body {
 .description span {
   display: none;
 
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 .bullets {
@@ -102,9 +102,8 @@ body {
   background-color: #202325; 
 }
 
-
-/* Slide1  */
-#slide1:checked ~ .slider-frame > .slider-line{
+/* Slide 1 */
+#slide1:checked ~ .slider-frame > .slider-line {
   transform: translateX(0);
 }
 #slide1:checked ~ .switcher > .description span:nth-child(1) {
@@ -115,7 +114,7 @@ body {
   display: block;
 }
 
-/* Slide2 */
+/* Slide 2 */
 #slide2:checked ~ .slider-frame > .slider-line{
   transform: translateX(-100%);
 }
@@ -127,8 +126,8 @@ body {
   display: block;
 }
 
-/* Slide3 */
-#slide3:checked ~ .slider-frame > .slider-line{
+/* Slide 3 */
+#slide3:checked ~ .slider-frame > .slider-line {
   transform: translateX(-200%);
 }
 #slide3:checked ~ .switcher > .description span:nth-child(3) {
@@ -139,8 +138,8 @@ body {
   display: block;
 }
 
-/* Slide4 */
-#slide4:checked ~ .slider-frame > .slider-line{
+/* Slide  */
+#slide4:checked ~ .slider-frame > .slider-line {
   transform: translateX(-300%);
 }
 #slide4:checked ~ .switcher > .description span:nth-child(4) {
@@ -150,7 +149,6 @@ body {
 #slide4:checked ~ .switcher > .bullets > .bullet:nth-child(4) span {
   display: block;
 }
-
 
 @media(max-width: 1200px) {
   .wrapper {
