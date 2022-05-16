@@ -48,7 +48,7 @@ body {
 .description {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   overflow: hidden;
   color: #fff;
 }
@@ -69,8 +69,8 @@ body {
   justify-content: center;
   align-items: center;
 	position: relative;
-	height: 40px;
-  width: 40px;
+	height: 2.25rem;
+  width: 2.25rem;
   transition: background 0.2s linear;
   cursor: pointer;
 }
@@ -155,12 +155,8 @@ body {
     width: 55%;
   }
   .description {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
-  .bullet {
-    width: 36px;
-    height: 36px;
-  } 
 }
 @media(max-width: 768px) {
   .wrapper {
@@ -170,14 +166,7 @@ body {
     flex-direction: column-reverse;
   }
   .bullets {
-    width: 100%;
     justify-content: center;
-    margin: 0 0 20px 0;
-  }
-}
-@media(max-width: 425px) {
-  .bullets {
-    max-width: 100%;
     margin: 0 0 20px 0;
   }
 }
